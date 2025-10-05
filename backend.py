@@ -52,6 +52,7 @@ from fastapi.middleware.cors import CORSMiddleware
 origins = [
     "http://localhost:3000",  # React dev server
     "http://127.0.0.1:3000",
+    "https://astrogaurd.netlify.app/",
 ]
 
 app.add_middleware(
