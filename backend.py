@@ -13,7 +13,6 @@ import re
 import math
 import logging
 logging.basicConfig(level=logging.INFO)
-from nasawrapper import SyncNeoWs
 import rasterio
 from rasterio.mask import mask
 from shapely.geometry import Point
